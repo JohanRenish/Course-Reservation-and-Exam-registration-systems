@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="Student_Registration_Class_Diagram" name="Student Registration Class Diagram">
+    <mxGraphModel dx="1288" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="student" parent="1" style="swimlane;fontStyle=1;horizontal=1;startSize=30;html=1;fillColor=#ffffff;strokeColor=#222222;fontSize=16;" value="Student" vertex="1">
+          <mxGeometry height="30" width="230" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="studentb" parent="1" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;spacingLeft=7;spacingTop=5;fontSize=13;fillColor=#ffffff;strokeColor=#222222;" value="+ID&#xa;+Name&#xa;+Email&#xa;+Phone No&#xa;+Dept&#xa;&#xa;+Register()&#xa;+Update Profile()&#xa;+View Registration()" vertex="1">
+          <mxGeometry height="230" width="230" x="40" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="course" parent="1" style="swimlane;fontStyle=1;horizontal=1;startSize=30;html=1;fillColor=#ffffff;strokeColor=#222222;fontSize=16;" value="Course" vertex="1">
+          <mxGeometry height="30" width="220" x="625" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="courseb" parent="1" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;spacingLeft=7;spacingTop=5;fontSize=13;fillColor=#ffffff;strokeColor=#222222;" value="+Code&#xa;+Name&#xa;+Credits&#xa;+Category&#xa;&#xa;+Add course()&#xa;+Update Course()&#xa;+View Course Details()" vertex="1">
+          <mxGeometry height="220" width="220" x="625" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="registration" parent="1" style="swimlane;fontStyle=1;horizontal=1;startSize=30;html=1;fillColor=#ffffff;strokeColor=#222222;fontSize=16;" value="Registration" vertex="1">
+          <mxGeometry height="30" width="240" x="40" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="registrationb" parent="1" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;spacingLeft=7;spacingTop=5;fontSize=13;fillColor=#ffffff;strokeColor=#222222;" value="+ID&#xa;+Date&#xa;+Sem&#xa;+Status&#xa;+Grade&#xa;&#xa;+Create()&#xa;+Update()&#xa;+Get Registration Details()" vertex="1">
+          <mxGeometry height="220" width="240" x="40" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="user" parent="1" style="swimlane;fontStyle=1;horizontal=1;startSize=30;html=1;fillColor=#ffffff;strokeColor=#222222;fontSize=16;" value="User" vertex="1">
+          <mxGeometry height="30" width="220" x="625" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="userb" parent="1" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;spacingLeft=7;spacingTop=5;fontSize=13;fillColor=#ffffff;strokeColor=#222222;" value="+ID&#xa;+User Name&#xa;+Password&#xa;&#xa;+Login()&#xa;+Logout()&#xa;+Change Password()" vertex="1">
+          <mxGeometry height="220" width="220" x="625" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="c0" edge="1" parent="1" style="edgeStyle=none;html=1;endArrow=none;strokeColor=#222222;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="170" as="sourcePoint" />
+            <mxPoint x="625" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c1" edge="1" parent="1" style="edgeStyle=none;html=1;endArrow=none;strokeColor=#222222;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="155" y="300" as="sourcePoint" />
+            <mxPoint x="155" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c2" edge="1" parent="1" style="edgeStyle=none;html=1;endArrow=none;strokeColor=#222222;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="260" as="sourcePoint" />
+            <mxPoint x="625" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c3" edge="1" parent="1" style="edgeStyle=none;html=1;endArrow=none;strokeColor=#222222;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="540" as="sourcePoint" />
+            <mxPoint x="625" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
